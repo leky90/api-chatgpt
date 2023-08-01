@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"go-playground/apps/api/app_config"
+	"go-playground/app_config"
 	"net/http"
 
 	"github.com/labstack/echo/v4"

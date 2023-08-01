@@ -1,11 +1,11 @@
 package main
 
 import (
-	"go-playground/apps/api/app_config"
-	"go-playground/apps/api/firebase_client"
-	"go-playground/apps/api/handler"
-	"go-playground/apps/api/middlewares"
-	"go-playground/apps/api/redis_client"
+	"go-playground/app_config"
+	"go-playground/firebase_client"
+	"go-playground/handler"
+	"go-playground/middlewares"
+	"go-playground/redis_client"
 	"log"
 	"net/http"
 	"time"

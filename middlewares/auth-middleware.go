@@ -3,7 +3,7 @@ package middlewares
 import (
 	"context"
 	"fmt"
-	"go-playground/apps/api/firebase_client"
+	"go-playground/firebase_client"
 	"net/http"
 
 	"github.com/labstack/echo/v4"

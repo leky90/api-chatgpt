@@ -1,6 +1,6 @@
 package model
 
-import "go-playground/apps/api/chatgpt"
+import "go-playground/chatgpt"
 
 type ListUsers map[string][]chatgpt.ChatCompletionMessage
 

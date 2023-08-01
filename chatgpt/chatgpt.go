@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"go-playground/apps/api/app_config"
+	"go-playground/app_config"
 	"net/http"
 	"strconv"
 	"strings"

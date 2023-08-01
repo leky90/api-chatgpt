@@ -3,9 +3,9 @@ package handler
 import (
 	"context"
 	"encoding/json"
-	"go-playground/apps/api/app_config"
-	"go-playground/apps/api/chatgpt"
-	"go-playground/apps/api/redis_client"
+	"go-playground/app_config"
+	"go-playground/chatgpt"
+	"go-playground/redis_client"
 	"net/http"
 	"time"
 
