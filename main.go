@@ -52,7 +52,7 @@ func main() {
 	}
 
 	s := http.Server{
-		Addr:    ":8080",
+		Addr:    ":8082",
 		Handler: h2c.NewHandler(e, h2s),
 	}
 	if err := s.ListenAndServe(); err != http.ErrServerClosed {
